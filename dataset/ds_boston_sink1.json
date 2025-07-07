@@ -14,7 +14,7 @@
 				"container": "servicobostonzip"
 			},
 			"columnDelimiter": ",",
-			"compressionCodec": "gzip",
+			"compressionCodec": "ZipDeflate",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
