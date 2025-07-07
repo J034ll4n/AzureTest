@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"folderPath": "bronze",
 				"container": "dadosboston"
 			},
 			"columnDelimiter": ",",
