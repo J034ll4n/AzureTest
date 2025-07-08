@@ -25,7 +25,8 @@
 						"formatSettings": {
 							"type": "DelimitedTextReadSettings",
 							"compressionProperties": {
-								"type": "ZipDeflateReadSettings"
+								"type": "ZipDeflateReadSettings",
+								"preserveZipFileNameAsFolder": false
 							}
 						}
 					},
@@ -37,7 +38,7 @@
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",
 							"quoteAllText": true,
-							"fileExtension": ".txt"
+							"fileExtension": ".csv"
 						}
 					},
 					"enableStaging": false,
