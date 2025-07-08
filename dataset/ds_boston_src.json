@@ -2,7 +2,7 @@
 	"name": "ds_boston_src",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureBlobStorage1",
+			"referenceName": "AzureBlobStorage2",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"folderPath": "bronze",
-				"container": "dadosboston"
+				"fileName": "dados_boston.zip",
+				"container": "servicobostonzip"
 			},
 			"columnDelimiter": ",",
 			"compressionCodec": "ZipDeflate",
