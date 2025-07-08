@@ -19,7 +19,7 @@
 						"type": "DelimitedTextSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
-							"fileListPath": "dadosboston/bronze",
+							"recursive": true,
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
